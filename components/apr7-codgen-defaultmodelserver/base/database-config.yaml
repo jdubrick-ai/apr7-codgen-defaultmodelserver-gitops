@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apr7-codgen-defaultmodelserver-database-config
+data:
+  VECTORDB_HOST: "apr7-codgen-defaultmodelserver-database"
+  VECTORDB_PORT: ""
